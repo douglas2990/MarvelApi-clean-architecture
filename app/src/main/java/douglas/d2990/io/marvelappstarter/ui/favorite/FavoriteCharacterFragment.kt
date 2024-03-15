@@ -8,12 +8,15 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.ItemTouchHelper
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import dagger.hilt.android.AndroidEntryPoint
 import douglas.d2990.io.marvelappstarter.R
 import douglas.d2990.io.marvelappstarter.databinding.FragmentFavoriteCharacterBinding
 import douglas.d2990.io.marvelappstarter.ui.adapters.CharacterAdapter
 import douglas.d2990.io.marvelappstarter.ui.base.BaseFragment
+import douglas.d2990.io.marvelappstarter.ui.hide
+import douglas.d2990.io.marvelappstarter.ui.show
 import douglas.d2990.io.marvelappstarter.ui.state.ResourceState
 import douglas.d2990.io.marvelappstarter.ui.toast
 import kotlinx.coroutines.flow.collect
