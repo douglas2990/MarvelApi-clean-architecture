@@ -10,7 +10,7 @@ android {
     compileSdk 30
 
     defaultConfig {
-        applicationId "daniel.lop.io.marvelappstarter"
+        applicationId "douglas.d2990.io.marvelappstarter"
         minSdk 22
         targetSdk 30
         versionCode 1
